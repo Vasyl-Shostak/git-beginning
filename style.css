@@ -1,0 +1,17 @@
+.icon a{
+    width: 100px;
+    height: 100px;
+}
+a.rollover {
+    background: url(./account.svg) no-repeat; /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+   
+   }
+
+   a.rollover:hover{
+       background-image: url(./account-active.svg);
+   }
+   .text{
+       display: flex;
+       justify-content: space-between;
+   }
